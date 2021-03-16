@@ -4,27 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>数据可视化-项目</title>
-    <script>
-        // rem适配 基准值 24  1920
-        (function () {
-            // 在编辑器中不要忘记修改基准值
-            window.onresize = function () {
-                var width = window.innerWidth;
-
-                if (width >= 1920) {
-                    width = 1920;
-                }
-
-                if (width <= 1024) {
-                    width = 1024;
-                }
-
-                // html的fontSize设置上
-                document.documentElement.style.fontSize = width / 80 + "px";
-            };
-            window.onresize();
-        })();
-    </script>
     <link rel="stylesheet" href="fonts/icomoon.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
